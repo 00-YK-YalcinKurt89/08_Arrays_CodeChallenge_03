@@ -29,10 +29,10 @@ function getSentence(arr,op) {
     switch (op) {
         case "S":
             return arr.join(GAP) + PUNCT;
-            break;
+
         case "Q":
             return arr.join(GAP) + question;
-            break;
+            
         case "E":
             return arr.join(GAP) + exclamation;
     }
